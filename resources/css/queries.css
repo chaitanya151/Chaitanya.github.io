@@ -1,0 +1,61 @@
+/*------------------------------------------------------------------------------------------------------*/
+/*Media Queries*/
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/*Big tablets to 1200px (widths smaller than the 1140px row) */
+
+@media only screen and (max-width:1023px) {
+    
+    .hero-text-box {
+    position: absolute;
+    width: 100%;
+    padding: 0 2%;
+    }
+    
+    .row{padding: 0 2%;}
+}
+
+
+/*small tablets to big tablet: from 768px to 1023px */
+
+@media only screen and (max-width:1023px) {
+    body{ font-size: 18px;}
+    section { padding: 60px, 0; }
+    
+    .long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    }
+    
+    .step-box {margin-top: 10px;}
+    .steps-box:last-child{margin-top: 70px;}
+    .works-steps {margin-bottom: 40px;}
+    .work-step:last-of-type {margin-bottom: 60px; }
+    
+    .app-screen {width: 50%; }
+    
+    .icon-small{margin-right: 5px; width:15px; }
+    .city-feature {font-size: 90%; }
+    
+    .plan-box{margin-left: 0%;width: 100%}
+    
+    .plan-price{ font-size: 250%}
+    .contact-form {width: 80%}
+}
+
+
+/*Small phones to small tablets : from 481px to 767px
+
+@media only screen and (max-width:767px) {
+    
+}
+
+
+Small phones: from 0 to 480px
+
+@media only screen and (max-width:480px) {
+    
+}
+ */
